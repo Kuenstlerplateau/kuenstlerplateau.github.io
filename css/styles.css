@@ -376,7 +376,7 @@ body {
 @media (max-width: 900px) {
 	.spalte_100 h1 {
 		float: left;
-		font-size: 4.5em;
+		font-size: 6.458vw;
 		font-weight: 100;
 		padding-bottom: 20px;
 		-moz-transition: all 0.4s;
@@ -387,7 +387,7 @@ body {
 
 	.spalte_100 h1:hover {
 		float: left;
-		font-size: 4.5em;
+		font-size: 6.458vw;
 		font-weight: 100;
 		padding-bottom: 20px;
 		color: #E0DDDD;
