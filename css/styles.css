@@ -113,7 +113,7 @@ body {
 
 .spalte_100 h1 {
 	float: left;
-	font-size: 120px;
+	font-size: 124px;
 	font-weight: 100;
 }
 
@@ -376,7 +376,7 @@ body {
 @media (max-width: 900px) {
 	.spalte_100 h1 {
 		float: left;
-		font-size: 6.458vw;
+		font-size: 4.5em;
 		font-weight: 100;
 		padding-bottom: 20px;
 		-moz-transition: all 0.4s;
@@ -387,7 +387,7 @@ body {
 
 	.spalte_100 h1:hover {
 		float: left;
-		font-size: 6.458vw;
+		font-size: 4.5em;
 		font-weight: 100;
 		padding-bottom: 20px;
 		color: #E0DDDD;
@@ -959,7 +959,7 @@ body {
 	.pricing-plan:last-child {
 	  border-right: none;
 	}
-  }
+}
   
   .pricing-img {
 	margin-bottom: 20px;
@@ -1057,5 +1057,65 @@ body {
 	color: #E0DDDD;
     box-shadow: 0 0 6px #000000;
   }
-
+  
+  @media (max-width: 900px) {
+	#pricing-button {
+		width: 200px;
+		height: 40px;
+		margin: 0 auto;
+		padding: 0;
+		display: inline-block;
+		line-height: 37px;
+		text-align: center;
+		border-radius: 100px;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		margin-top: 20px;
+		font-size: 20px;
+		transition-duration: 0.3s;
+		text-decoration: none;
+		margin-left: auto;
+		margin-right: auto;
+	  }
+	  
+	  #pricing-button:hover,
+	  #pricing-button:focus {
+		width: 200px;
+		height: 40px;
+		margin: 0 auto;
+		padding: 0;
+		display: inline-block;
+		line-height: 37px;
+		text-align: center;
+		border-radius: 100px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		font-size: 20px;
+		background-color: #000000;
+		color: #E0DDDD;
+		box-shadow: 0 0 6px #000000;
+	  }
+	  
+	  #pricing-button.is-featured {
+		color: #E0DDDD;
+	  }
+	  
+	  #pricing-button.is-featured:hover,
+	  #pricing-button.is-featured:active {
+		width: 200px;
+		height: 40px;
+		margin: 0 auto;
+		padding: 0;
+		display: inline-block;
+		line-height: 37px;
+		text-align: center;
+		border-radius: 100px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		font-size: 20px;
+		background-color: #000000;
+		color: #E0DDDD;
+		box-shadow: 0 0 6px #000000;
+	  }
+}
   
