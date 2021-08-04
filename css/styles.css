@@ -1150,7 +1150,7 @@ section {
 @media (max-width: 767px) {
   .title-container,
 section {
-    width: 90%;
+    width: 100%;
   }
 }
 
