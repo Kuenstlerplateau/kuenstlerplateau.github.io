@@ -158,6 +158,7 @@ body {
 	text-align: justify;
 }
 
+
 .spalte_60 .button_block {
 	text-align: center;
 	float: left;
@@ -373,42 +374,136 @@ body {
 }
 
 @media (max-width: 900px) {
+	.spalte_100 h1 {
+		float: left;
+		font-size: 72px;
+		font-weight: 100;
+		padding-bottom: 20px;
+	}
+	
 	.spalte_60 {
 		float: left;
 		width: 100%;
-		padding: 10px;
 		vertical-align: middle;
+		padding: 0%;
 	}
+
 	.spalte_60 div p {
 		float: left;
 		width: 100%;
 		vertical-align: middle;
 		text-align: justify;
 		padding: 0;
+		font-size: 20px;
+		line-height: 32px;
 	}
 
 	.spalte_60 h1 {
 		float: left;
 		font-size: 72px;
 		font-weight: 100;
+		padding-bottom: 20px;
 	}
 
-	.spalte_40 {
+	.spalte_60 h1:hover {
+		float: left;
+		font-size: 72px;
+		font-weight: 100;
+		padding-bottom: 20px;
+		color: #E0DDDD;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: #000000;
+		-webkit-transform: skewX(-5deg);
+		-moz-transform: skewX(-5deg);
+		-o-transform: skewX(-5deg);
+		transform: skewX(-5deg);
+	}
+
+	.spalte_60 .button {
+		width: 210px;
+		height: 45px;
+		margin: 0 auto;
+		padding: 0;
+		display: inline-block;
+		line-height: 40px;
+		text-align: center;
+		border-radius: 100px;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		margin-top: 40px;
+		font-size: 20px;
+		transition-duration: 0.3s;
+		text-decoration: none;
+		margin-bottom: 40px;
+	}
+	
+	.spalte_60 .button:hover {
+		width: 210px;
+		height: 45px;
+		margin: 0 auto;
+		padding: 0;
+		display: inline-block;
+		line-height: 40px;
+		text-align: center;
+		border-radius: 100px;
+		box-sizing: border-box;
+		margin-top: 40px;
+		font-size: 20px;
+		background-color: #000000;
+		color: #E0DDDD;
+		box-shadow: 0 0 6px #000000;
+		margin-bottom: 40px;
+	}
+
+	.spalte_50 {
 		float: left;
 		width: 100%;
-		padding: 10px;
-		vertical-align: middle;
-	}
-
-	.spalte_25 p {
-		font-size: 12px;
-		float: left;
-		width: 50%;
-		padding: 10px;
-		vertical-align: middle;
 	}
 
 	.spalte_50 p {
+		float: left;
+		font-size: 20px;
+		line-height: 32px;
+		float: left;
+		width: 100%;
+		padding: 0px 0px 20px 0px;
+	}
+
+	.spalte_50 .button {
+		width: 210px;
+		height: 45px;
+		margin: 0 auto;
+		padding: 0;
+		display: inline-block;
+		line-height: 40px;
+		text-align: center;
+		border-radius: 100px;
+		border: 2px solid #000000;
+		box-sizing: border-box;
+		margin-top: 40px;
+		font-size: 20px;
+		transition-duration: 0.3s;
+		text-decoration: none;
+	}
+
+	.spalte_50 .button:hover {
+		width: 210px;
+		height: 45px;
+		margin: 0 auto;
+		padding: 0;
+		display: inline-block;
+		line-height: 40px;
+		text-align: center;
+		border-radius: 100px;
+		box-sizing: border-box;
+		margin-top: 40px;
+		font-size: 20px;
+		background-color: #000000;
+		color: #E0DDDD;
+		box-shadow: 0 0 6px #000000;
+	}
+
+	.spalte_40 {
 		float: left;
 		width: 100%;
 		padding: 10px;
@@ -424,6 +519,19 @@ body {
 		width: 100%;
 		float: left;
 		padding-bottom: 20px;
+	}
+
+	.spalte_25 {
+		float: left;
+		width: 100%;
+	}
+
+	.spalte_25 p {
+		font-size: 20px;
+		line-height: 32px;
+		float: left;
+		width: 100%;
+		padding: 0px 0px 20px 0px;
 	}
 
 	.spalte_20  {
