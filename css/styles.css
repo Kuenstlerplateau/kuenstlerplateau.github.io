@@ -126,13 +126,12 @@ body {
 	font-size: 124px;
 	font-weight: 100;
 	color: #E0DDDD;
-    -webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
 	-webkit-transform: skewX(-5deg);
 	-moz-transform: skewX(-5deg);
 	-o-transform: skewX(-5deg);
 	transform: skewX(-5deg);
-}
 }
 
 .spalte_60 {
