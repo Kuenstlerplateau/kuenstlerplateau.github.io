@@ -1000,7 +1000,7 @@ body {
   }
   
   #pricing-button {
-	width: 250px;
+	width: 80%;
     height: 50px;
     margin: 0 auto;
     padding: 0;
@@ -1057,8 +1057,14 @@ body {
 	color: #E0DDDD;
     box-shadow: 0 0 6px #000000;
   }
-  
-  @media (max-width: 900px) {
+
+  @media (max-width: 1388px) {
+	.spalte_33_preise  {
+		width: 100%;
+		float: left;
+		padding-bottom: 20px;
+	}
+	
 	#pricing-button {
 		width: 200px;
 		height: 40px;
