@@ -379,6 +379,24 @@ body {
 		font-size: 72px;
 		font-weight: 100;
 		padding-bottom: 20px;
+		-moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+	}
+
+	.spalte_100 h1:hover {
+		float: left;
+		font-size: 72px;
+		font-weight: 100;
+		padding-bottom: 20px;
+		color: #E0DDDD;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: #000000;
+		-webkit-transform: skewX(-5deg);
+		-moz-transform: skewX(-5deg);
+		-o-transform: skewX(-5deg);
+		transform: skewX(-5deg);
 	}
 	
 	.spalte_60 {
