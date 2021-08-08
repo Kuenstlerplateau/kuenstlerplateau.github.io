@@ -1124,8 +1124,8 @@ section {
   padding: 0.3em 0;
   font-size: 2em;
   overflow: hidden;
-  background: #000;
-  color: #E0DDDD;
+  background: #E0DDDD;
+  color: #000000;
 }
 @media (max-width: 480px) {
   .title-container.rellax-box {
@@ -1141,7 +1141,7 @@ section {
 .title-container.rellax-box > a {
   transition: opacity 400ms ease;
   text-decoration: none;
-  color: #E0DDDD;
+  color: #000000;
 }
 .title-container.rellax-box .button__hover {
   opacity: 0;
@@ -1166,7 +1166,7 @@ section {
 .title-container.rellax-box .button__hover .button__ticker > a {
   padding: 0 1.5em;
   text-decoration: none;
-  color: #E0DDDD;
+  color: #000000;
 }
 
 .rellax-box {
