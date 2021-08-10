@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @font-face {
     font-family: 'Tartuffo-LightItalic';
     src: url('../fonts/Tartuffo-LightItalic.woff') format('woff'),
@@ -47,6 +46,11 @@ body {
 	width: 100%;
 	height: 2px;
 	background: #000000;
+}
+
+.mini_whitespace {
+	width: 100%;
+	height: 20px;
 }
 
 .whitespace {
@@ -118,6 +122,7 @@ body {
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
+	padding-bottom: 20px;
 }
 
 .spalte_100 h1:hover {
@@ -137,6 +142,26 @@ body {
 	float: left;
 	width: 60%;
 	padding-right: 20px;
+}
+
+.spalte_60 img {
+	float: right;
+	width: 75%;
+}
+
+.spalte_60 .spalte_50 img {
+	float: right;
+	width: 100%;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.spalte_60 a figcaption {
+	font-size: 14px;
+	padding-top: 14px;
+	height: auto;
+	color: #3E3E3E;
+	float: right;
 }
 
 .spalte_60 h1 {
@@ -174,6 +199,17 @@ body {
 	text-align: justify;
 }
 
+.spalte_60 p {
+	float: left;
+	font-size: 24px;
+	font-weight: 100;
+	font-family: "DM Sans";
+	width: 100%;
+	padding-right: 60px;
+	padding-top: 20px;
+	line-height: 36px;
+	text-align: justify;
+}
 
 .spalte_60 .button_block {
 	text-align: center;
@@ -283,6 +319,28 @@ body {
 	padding-top: 14px;
 	height: auto;
 	color: #3E3E3E;
+}
+
+.spalte_40 h2 {
+	float: left;
+	font-size: 18px;
+	font-weight: 100;
+	font-family: "DM Sans";
+	padding-right: 60px;
+	line-height: 20px;
+	text-align: justify;
+	font-weight: 700;
+}
+
+.spalte_40 p {
+	float: left;
+	font-size: 18px;
+	font-weight: 100;
+	font-family: "DM Sans";
+	padding-right: 60px;
+	line-height: 28px;
+	text-align: justify;
+	margin-bottom: 20px;
 }
 
 .spalte_25 p {
@@ -395,7 +453,7 @@ body {
 		float: left;
 		font-size: 3.2em;
 		font-weight: 100;
-		padding-bottom: 20px;
+		padding-bottom: 30px;
 		-moz-transition: all 0.4s;
     	-webkit-transition: all 0.4s;
     	-o-transition: all 0.4s;
@@ -424,6 +482,16 @@ body {
 	}
 
 	.spalte_60 div p {
+		float: left;
+		width: 100%;
+		vertical-align: middle;
+		text-align: justify;
+		padding: 0;
+		font-size: 20px;
+		line-height: 32px;
+	}
+
+	.spalte_60 p {
 		float: left;
 		width: 100%;
 		vertical-align: middle;
@@ -491,6 +559,11 @@ body {
 		margin-bottom: 40px;
 	}
 
+	.spalte_60 img {
+		float: left;
+		width: 100%;
+	}
+
 	.spalte_50 {
 		float: left;
 		width: 100%;
@@ -542,8 +615,17 @@ body {
 	.spalte_40 {
 		float: left;
 		width: 100%;
-		padding: 10px;
 		vertical-align: middle;
+	}
+
+	.spalte_40 p {
+		float: left;
+		vertical-align: middle;
+		text-align: justify;
+		padding: 0;
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 40px;
 	}
 
 	.spalte_33  {
