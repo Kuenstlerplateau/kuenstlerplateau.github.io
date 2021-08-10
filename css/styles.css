@@ -141,10 +141,14 @@ body {
 .spalte_60 {
 	float: left;
 	width: 60%;
-	padding-right: 20px;
 }
 
 .spalte_60 img {
+	float: right;
+	width: 75%;
+}
+
+.spalte_60 video {
 	float: right;
 	width: 75%;
 }
@@ -303,6 +307,19 @@ body {
 .spalte_40 {
 	float: left;
 	width: 40%;
+}
+
+.spalte_40 video {
+	float: left;
+	width: 100%;
+}
+
+.spalte_40 a figcaption {
+	font-size: 14px;
+	padding-top: 14px;
+	height: auto;
+	color: #3E3E3E;
+	float: left;
 }
 
 .spalte_40 img {
