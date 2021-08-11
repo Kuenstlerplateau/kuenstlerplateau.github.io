@@ -320,11 +320,13 @@ body {
 	height: auto;
 	color: #3E3E3E;
 	float: left;
+	margin-left: 5%;
 }
 
 .spalte_40 img {
-	width: 100%;
+	width: 95%;
 	height: auto;
+	float: right;
 }
 
 .spalte_40 a  {
@@ -643,6 +645,21 @@ body {
 		font-size: 18px;
 		line-height: 28px;
 		margin-bottom: 40px;
+	}
+
+	.spalte_40 a figcaption {
+		font-size: 14px;
+		padding-top: 14px;
+		height: auto;
+		color: #3E3E3E;
+		float: left;
+		margin-left: 0;
+	}
+
+	.spalte_40 img {
+		width: 100%;
+		height: auto;
+		float: right;
 	}
 
 	.spalte_33  {
