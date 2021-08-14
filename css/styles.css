@@ -122,7 +122,7 @@ body {
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .spalte_100 h1:hover {
@@ -191,18 +191,6 @@ body {
 	transform: skewX(-5deg);
 }
 
-.spalte_60 div p {
-	float: left;
-	font-size: 24px;
-	font-weight: 100;
-	font-family: "DM Sans";
-	width: 100%;
-	padding-right: 60px;
-	padding-top: 20px;
-	line-height: 36px;
-	text-align: justify;
-}
-
 .spalte_60 p {
 	float: left;
 	font-size: 24px;
@@ -211,7 +199,7 @@ body {
 	width: 100%;
 	padding-right: 60px;
 	padding-top: 20px;
-	line-height: 36px;
+	line-height: 34px;
 	text-align: justify;
 }
 
@@ -307,11 +295,13 @@ body {
 .spalte_40 {
 	float: left;
 	width: 40%;
+	padding-left: 10px;
 }
 
 .spalte_40 video {
 	float: left;
 	width: 100%;
+	padding-left: 10px;
 }
 
 .spalte_40 a figcaption {
@@ -327,6 +317,7 @@ body {
 	width: 95%;
 	height: auto;
 	float: right;
+	padding-bottom: 15px;
 }
 
 .spalte_40 a  {
@@ -357,7 +348,7 @@ body {
 	font-weight: 100;
 	font-family: "DM Sans";
 	padding-right: 60px;
-	line-height: 28px;
+	line-height: 26px;
 	text-align: justify;
 	margin-bottom: 20px;
 }
@@ -381,7 +372,7 @@ body {
 	font-family: "DM Sans";
 	padding-right: 60px;
 	padding-top: 20px;
-	line-height: 36px;
+	line-height: 34px;
 	text-align: justify;
 }
 
@@ -414,7 +405,6 @@ body {
 .spalte_20 {
 	width: 20%;
 	float: left;
-	margin-top: 24px;
 }
 
 .spalte_20_mitte {
@@ -460,11 +450,38 @@ body {
 	line-height: 36px;
 }
 
+.spalte_20 h2 {
+	float: left;
+	font-size: 18px;
+	font-weight: 100;
+	font-family: "DM Sans";
+	padding-right: 60px;
+	line-height: 20px;
+	text-align: justify;
+	font-weight: 700;
+}
+
+.spalte_20 p {
+	float: left;
+	font-size: 18px;
+	font-weight: 100;
+	font-family: "DM Sans";
+	padding-right: 20px;
+	line-height: 26px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
 .spalte_20 img {
 	width: 100%;
 	height: auto;
-	padding-left: 40px;
-	padding-right: 40px;
+}
+
+.spalte_15 {
+	width: 15%;
+	float: left;
+	margin-right: 5%;
+	text-align: justify;
 }
 
 @media (max-width: 900px) {
@@ -583,6 +600,13 @@ body {
 		width: 100%;
 	}
 
+	.spalte_60 .spalte_50 img {
+		float: right;
+		width: 100%;
+		padding-left: 0px;
+		padding-bottom: 10px;
+	}
+
 	.spalte_50 {
 		float: left;
 		width: 100%;
@@ -635,6 +659,7 @@ body {
 		float: left;
 		width: 100%;
 		vertical-align: middle;
+		padding-left: 0px;
 	}
 
 	.spalte_40 p {
@@ -700,6 +725,12 @@ body {
 	.spalte_20_mitte {
 		width: 100%;
 		float: left;
+	}
+
+	.spalte_15 {
+		width: 100%;
+		float: left;
+		text-align: justify;
 	}
 }
 

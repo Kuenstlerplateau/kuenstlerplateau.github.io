@@ -1,0 +1,4 @@
+# robots.txt zu https://www.kuenstlerplateau.de/
+User-agent: *
+Allow: /*
+Sitemap: https://www.kuenstlerplateau.de/sitemap.xml
