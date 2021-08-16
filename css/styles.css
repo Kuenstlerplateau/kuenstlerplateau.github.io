@@ -129,7 +129,7 @@ header {
 	right: 0;
 	animation-duration: 300ms;
 	animation-timing-function: ease;
-	border: solid 1px #000000;
+	border: solid 1.5px #000000;
 	background-color: #E0DDDD;
 	
 }
@@ -231,6 +231,7 @@ header {
     -o-transition: all 0.4s;
     transition: all 0.4s;
 	padding-bottom: 30px;
+	vertical-align: top;
 }
 
 .spalte_100 h1:hover {
@@ -410,6 +411,7 @@ header {
 	float: left;
 	width: 100%;
 	padding-left: 10px;
+	margin-top: 3%;
 }
 
 .spalte_40 a figcaption {
@@ -426,6 +428,7 @@ header {
 	height: auto;
 	float: right;
 	padding-bottom: 15px;
+	margin-top: 3%;
 }
 
 .spalte_40 a  {
