@@ -13,11 +13,27 @@
 		<link rel="stylesheet" href="css/styles.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="images/logo.ico">
 		<script type="text/javascript" src="js/funktionen.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/circular-revealer@0.0.8/dist/index.iife.js"></script>
 	</head>
 	<body id="js-scroll">
 		<div class="wrapper">
 			<div class="container">
-				<!-- navbar -->
+				<header>
+					<div>
+						<button class="header__button nav-btn-js" type="button"><a>Menü</a></button>
+						<nav class="header__nav nav-js" data-active="false">
+							<ul class="header__menu">
+								<li class="header__menu-item"><a href="#">Home</a></li>
+								<li class="header__menu-item"><a href="#">Projects</a></li>
+								<li class="header__menu-item"><a href="#">About</a></li>
+								<li class="header__menu-item"><a href="#">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+				<div class="divider"></div>
+				<div class="whitespace"></div>
+				<!-- navbar 
 				<div class="navbar">
 					<div class="navbar-container">
 						<div class="site-title">Über das Plateau</div>
@@ -26,6 +42,7 @@
 						<div class="site-year">Kontakt</div>
 					</div>
 				</div>
+				-->
 				<!-- divider -->
 				<div class="divider"></div>
 				<div class="whitespace"></div>
@@ -165,6 +182,27 @@
 			});
 		</script>
 		-->
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				const revealerNav = window.revealer({
+					revealElementSelector: ".nav-js",
+					options: {
+						anchorSelector: ".nav-btn-js",
+					},
+				});
+
+				const actionBtn = document.querySelector(".nav-btn-js");
+				actionBtn.addEventListener("click", () => {
+					if (!revealerNav.isRevealed()) {
+						revealerNav.reveal();
+						actionBtn.setAttribute("data-open", true);
+					} else {
+						revealerNav.hide();
+						actionBtn.setAttribute("data-open", false);
+					}
+				});
+			});
+		</script>
 		<script src="js/jquery.js" ></script> <!-- Load jQuery first -->
 		<script src="js/tilt.jquery.js"></script> <!-- Load Tilt.js library -->
 		<script src="js/funktionen.js"></script> <!-- Load Tilt.js library -->
