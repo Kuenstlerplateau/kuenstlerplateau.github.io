@@ -17,8 +17,6 @@ function openCity(evt, cityName) {
 
   var rellax = new Rellax('.rellax-box');
 
-  const cursor = document.querySelector(".cursor")
-
   
 
   var cursor = {
